@@ -2,15 +2,11 @@
 body {
   margin: 0;
   padding: 0;
-}
-
-.estilo1 {
-  background-color: black;
-  color: white;
+  background-color: #0a2ff1;
 }
 
 #container {
-  height: 100vh;
+  height: 95vh;
   text-align: center;
   font-family: "Montserrat";
 }
@@ -23,28 +19,37 @@ body {
 /* DIV CONTENEDORES  */
 
 #container div:nth-child(1) {
-  height: 20%;
+  margin-top: 2.5%;
+  height: 15%;
+  background-color: white;
+  justify-content: initial;
 }
 #container div:nth-child(2) {
+  background-color: black;
+  color: white;
   height: 17.5%;
 }
 #container div:nth-child(3) {
   height: 42.5%;
+  background-color: white;
 }
 #container div:nth-child(4) {
-  height: 5%;
+  height: 7.5%;
+  background-color: white;
 }
 
 #container div:nth-child(5) {
-  height: 15%;
+  height: 10%;
+  background-color: white;
+  justify-content: end;
 }
 
 /* PARRAFOS DE CADA DIV */
 #container div:nth-child(1) p {
-  padding-top: 5rem;
   margin: 0;
   font-size: 66.66666666666666px;
   font-weight: bold;
+  color: #0a2ff1;
 }
 #container div:nth-child(2) p {
   font-weight: bold;
@@ -58,11 +63,25 @@ body {
   font-size: 217.33333333333331px;
 }
 #container div:nth-child(4) p {
+  color: #0a2ff1;
+
   margin: 0;
   font-size: 48px;
 }
 
 #container div:nth-child(5) p {
+  color: #0a2ff1;
   margin: 0;
   font-size: 58.666666666666664px;
+}
+
+/* ACA TOMO LOS 2 PRIMEROS STRONGS DEL DOCUMENTO HTML */
+
+p strong:nth-of-type(1) {
+  font-size: 48px;
+  color: #0a2ff1;
+}
+p strong:nth-of-type(2) {
+  background-color: black;
+  color: white;
 }
